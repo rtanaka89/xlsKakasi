@@ -25,6 +25,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # kakasi
 gem 'kakasi', '~> 1.0.2'
+# rubyXL xlsx read write
+gem 'rubyXL', '~> 3.3.8'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
