@@ -1,0 +1,18 @@
+<h1>kakasi index</h1>
+
+<%= form_tag({:action => :index}, {:method => :get}) do%>
+
+  <div>
+    <%= label_tag "アルファベットに変換" %><br />
+    <%= text_field :kakasi, "name" %>
+  </div>
+
+  <div>
+    <%= label_tag @msg %>
+  </div>
+
+  <div>
+    <%= submit_tag("kakasi_test")%>
+  </div>
+
+<% end %>
