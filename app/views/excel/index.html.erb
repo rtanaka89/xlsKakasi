@@ -1,1 +1,12 @@
 <h1>excel index</h1>
+
+<%= form_tag({:action=>:index}, {:method=>:post, :multipart=>true}) do%>
+
+  <div>
+    <%= label :page, "エクセルファイル選択" %><br />
+    <%= file_field :page, :fileName %>
+  </div>
+
+  <%= submit_tag("submit") %>
+
+<% end %>
